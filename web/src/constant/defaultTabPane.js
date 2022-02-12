@@ -1,9 +1,9 @@
 import {COVER_HOST} from "./index";
 
 export const DEFAULT_COVER = {
-  name: '星空联结',
-  preview: "/dynamic/cover-00/preview.jpg",
-  src: '/dynamic/cover-00/index.html',
+  name: '满天繁星',
+  preview: '/dynamic/stars/preview.png',
+  src: '/dynamic/stars/index.html',
   type: 'iframe',
 }
 
@@ -54,13 +54,19 @@ const dataList = [
     list: [
       DEFAULT_COVER,
       {
+        name: '樱花飞舞',
+        preview: "/dynamic/sakura/preview.png",
+        src: '/dynamic/sakura/index.html',
+        type: 'iframe',
+      },
+      {
         name: '樱花少女',
         preview: "/dynamic/cover-01/preview.jpg",
         src: '/dynamic/cover-01/index.html',
         type: 'iframe',
       },
       {
-        name: '樱花飞舞',
+        name: '点线联结',
         preview: "/dynamic/cover-02/preview.jpg",
         src: '/dynamic/cover-02/index.html',
         type: 'iframe',
@@ -144,6 +150,18 @@ const dataList = [
         type: 'iframe',
       },
       {
+        name: '科技六角',
+        preview: "/interact/techHexagon/preview.png",
+        src: '/interact/techHexagon/index.html',
+        type: 'iframe',
+      },
+      {
+        name: '星空之环',
+        preview: "/interact/starCircle/preview.jpg",
+        src: '/interact/starCircle/index.html',
+        type: 'iframe',
+      },
+      {
         name: '3D 飞行',
         preview: "/interact/3dPlane/preview.png",
         src: '/interact/3dPlane/index.html',
@@ -177,6 +195,7 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
+
   {
     name: "随机",
     key: "random",
