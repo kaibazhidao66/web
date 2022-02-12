@@ -195,11 +195,6 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
-  // {
-  //   name: "看板娘",
-  //   key: "signboard",
-  //   list: [],
-  // },
   {
     name: "随机",
     key: "random",
