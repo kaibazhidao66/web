@@ -11,9 +11,9 @@ export default {
         link: "https://xukaiyyds.cn",
         name: "XKの主页"
       }, {
-        icon: "https://wkphoto.cdn.bcebos.com/72f082025aafa40f051268bfbb64034f79f019ff.jpg",
-        link: "https://blog.xukaiyyds.cn",
-        name: "XKの博客"
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
+        link: "https://github.com/",
+        name: "GitHub"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
         link: "https://www.zhihu.com/",
