@@ -1,5 +1,5 @@
 /*主页样式*/
-html {
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -8,7 +8,7 @@ html {
 }
 
 .index {
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 
 .card-wrapper {
