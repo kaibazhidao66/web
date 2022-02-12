@@ -13,9 +13,9 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>XKの导航</title>
-        <meta name="description" content="XK的自定义编程导航界面" />
-        <meta name="keywords" content="XKの导航,导航,资源,主页" />
+        <title>编程导航 - 程序员必备主页</title>
+        <meta name="description" content="编程导航,最专业的程序员导航网站,发现优质编程学习资源,定制你的程序员必备主页,公众号编程导航" />
+        <meta name="keywords" content="编程,程序员,导航,资源,主页,编程导航" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <script src="baiduAnalyze.js"></script>
       </Head>
