@@ -23,11 +23,11 @@ export default {
         link: "https://www.bilibili.com/",
         name: "哔哩哔哩"
       }, {
-        icon: "./image/gitee.png",
+        icon: "https://pic.imgdb.cn/item/6207ba3f2ab3f51d91bbf6b9.png",
         link: "https://gitee.com/",
         name: "Gitee"
       }, {
-        icon: "./image/csdn.png",
+        icon: "https://pic.imgdb.cn/item/6207ba1f2ab3f51d91bbda1d.png",
         link: "https://blog.csdn.net/",
         name: "CSDN博客"
       }, {
@@ -35,7 +35,7 @@ export default {
         link: "https://github.com/",
         name: "GitHub"
       }, {
-        icon: "./image/codepen.png",
+        icon: "https://pic.imgdb.cn/item/6207b9ff2ab3f51d91bbc14a.png",
         link: "https://codepen.io/",
         name: "CodePen"
       },  {

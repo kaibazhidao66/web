@@ -16,7 +16,7 @@ export default {
         <title>XKの导航</title>
         <meta name="description" content="XK的自定义编程导航界面" />
         <meta name="keywords" content="XKの导航,导航,编程,资源,主页" />
-        <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://pic.imgdb.cn/item/6207baae2ab3f51d91bc56a5.png" type="image/x-icon" />
         <script src="baiduAnalyze.js"></script>
       </Head>
       <Body>{children}</Body>
