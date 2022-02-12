@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>XKの音乐</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="keywords" content="XKの音乐">
+	<meta name="description" content="只宅不丧 积极向上，今天你网抑云了吗？">
+	<link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css">
+</head>
+
+<body>
+    <div class="idea">
+        <header>
+            <a onclick='history.back()'><i class='fa fa-arrow-left fa-fw'></i></a>
+            <a onclick='history.forward()'><i class='fa fa-arrow-right fa-fw'></i></a>
+            <a onclick='window.location.reload()'><i class='fa fa-redo fa-fw'></i></a>
+            <a href='https://xukaiyyds.cn'><i class='fa fa-home fa-fw'></i></a>
+        </header>
+    </div>
+    <div class="idea" id="body">
+        <!-- JS -->
+	    <script type="text/javascript" src="js/script.js"></script>
+        <!-- APlayer -->
+        <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+        <!-- 爱心特效 -->
+        <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
+        <!-- 网易歌单 -->
+        <h2><i class="social fad fa-headphones-alt flat-btn"></i><br>『精神食粮』</h2>
+        <div class="xiyang"></div>
+        <p class="yunping">喜欢就去追吧，毕竟那不是巧合，是牛顿说的万有引力啊 --《万有引力》</p>
+        <meting-js theme='#767676'autoplay='false' volume='0.7' loop='all' order='random' fixed='false' list-max-height='320px' server='netease' type='playlist' id='5234460060' list-folded='true'></meting-js>
+        <p class="yunping">大家都说我的性子很慢，其实我也可以很快，比如，后面有狗追我，或者，你在前面等我 --《理想三旬》</p>
+        <meting-js theme='#767676'autoplay='false' volume='0.7' loop='all' order='random' fixed='false' list-max-height='320px' server='netease' type='playlist' id='4946368509' list-folded='true'></meting-js>
+        <p class="yunping">其实真正的送别没有长亭古道，没有劝君更尽一杯酒，就是在一个和平时一样的清晨，有的人留在昨天了--《送别》</p>
+        <meting-js theme='#767676'autoplay='false' volume='0.7' loop='all' order='random' fixed='false' list-max-height='320px' server='netease' type='playlist' id='498708023' list-folded='true'></meting-js>
+        <div class="jitter"><div class="span">UK排行榜周榜</div></div>
+        <meting-js theme='#767676' server="netease" type="playlist" id="180106"></meting-js>
+        <div class="jitter"><div class="span">美国Billboard榜</div></div>
+        <meting-js theme='#767676' server="netease" type="playlist" id="60198"></meting-js>
+        <div class="jitter"><div class="span">Music 飙升＋热榜</div></div>
+        <meting-js theme='#767676' server="netease" type="playlist" id="19723756"></meting-js>
+        <meting-js theme='#767676' server="netease" type="playlist" id="3778678"></meting-js>
+        <!-- 底部歌词 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+        <meting-js theme="#2e7bcf" server="netease" type="playlist" id="5434513615" fixed="true" autoplay="false" order="list" loop="all"></meting-js>
+        <!-- 加载动画 -->
+        <div class="center-div">
+        <div class="loading-div">
+        <div class="load">
+        <hr/><hr/><hr/><hr/>
+        </div>
+        </div>
+        </div>
+        <script>
+        setTimeout(() => {
+            $(".loading-div").hide();
+            $('body').css('overflow-y','scroll');
+        },1000);
+        </script>
+        <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
+        <!-- 弹窗文件 -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+    </div>
+    <div class="idea">
+        <!-- 版权信息 -->
+        <footer>
+            <div class="power">Copyright&nbsp;&copy;&nbsp;2020
+                <script>
+                    document.write(' - ' + (new Date()).getFullYear())
+                </script>
+                &nbsp;<a href="https://music.163.com/#/playlist?id=5472593172" target="_blank">网易歌单</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

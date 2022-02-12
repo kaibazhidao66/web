@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>XKの碎碎念</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="keywords" content="XKの碎碎念">
+	<meta name="description" content="XK的闲言碎语，类似于QQ动态的说说。">
+	<link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css">
+</head>
+
+<body>
+    <div class="idea">
+        <header>
+            <a onclick='history.back()'><i class='fa fa-arrow-left fa-fw'></i></a>
+            <a onclick='history.forward()'><i class='fa fa-arrow-right fa-fw'></i></a>
+            <a onclick='window.location.reload()'><i class='fa fa-redo fa-fw'></i></a>
+            <a href='https://xukaiyyds.cn'><i class='fa fa-home fa-fw'></i></a>
+        </header>
+    </div>
+    <div class="idea" id="body">
+        <!-- JS -->
+	    <script type="text/javascript" src="js/script.js"></script>
+        <!-- 爱心特效 -->
+        <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
+        <!-- 碎碎念 -->
+        <h2><i class="fad fa-pen-square fa-fw"></i><br>『闲言碎语』</h2>
+        <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+        <!-- 存放说说的容器 -->
+        <div id="artitalk_main"></div>
+        <script>
+        new Artitalk({
+        appId: 'aQ6ajpL3rKoHRA8Fwwz5zKva-MdYXbMMI',
+        appKey: 'vU8WYp8WPXat9qSBRDXdGSVs'
+        })
+        </script>
+        <!-- 加载动画 -->
+        <div class="center-div">
+        <div class="loading-div">
+        <div class="load">
+        <hr/><hr/><hr/><hr/>
+        </div>
+        </div>
+        </div>
+        <script>
+        setTimeout(() => {
+            $(".loading-div").hide();
+            $('body').css('overflow-y','scroll');
+        },1000);
+        </script>
+        <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
+        <!-- 弹窗文件 -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+    </div>
+    <div class="idea">
+        <!-- 版权信息 -->
+        <footer>
+            <div class="power">Copyright&nbsp;&copy;&nbsp;2020
+                <script>
+                    document.write(' - ' + (new Date()).getFullYear())
+                </script>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

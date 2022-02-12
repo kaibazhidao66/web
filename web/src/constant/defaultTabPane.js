@@ -1,9 +1,9 @@
 import {COVER_HOST} from "./index";
 
 export const DEFAULT_COVER = {
-  name: '满天繁星',
-  preview: '/dynamic/stars/preview.png',
-  src: '/dynamic/stars/index.html',
+  name: '星空联结',
+  preview: "/dynamic/cover-00/preview.jpg",
+  src: '/dynamic/cover-00/index.html',
   type: 'iframe',
 }
 
@@ -54,19 +54,13 @@ const dataList = [
     list: [
       DEFAULT_COVER,
       {
-        name: '樱花飞舞',
-        preview: "/dynamic/sakura/preview.png",
-        src: '/dynamic/sakura/index.html',
-        type: 'iframe',
-      },
-      {
         name: '樱花少女',
         preview: "/dynamic/cover-01/preview.jpg",
         src: '/dynamic/cover-01/index.html',
         type: 'iframe',
       },
       {
-        name: '点线联结',
+        name: '樱花飞舞',
         preview: "/dynamic/cover-02/preview.jpg",
         src: '/dynamic/cover-02/index.html',
         type: 'iframe',
@@ -77,12 +71,12 @@ const dataList = [
         src: '/dynamic/cover-03/index.html',
         type: 'iframe',
       },
-      {
-        name: '古装少女',
-        preview: "/dynamic/cover-04/preview.jpg",
-        src: '/dynamic/cover-04/index.html',
-        type: 'iframe',
-      },
+      // {
+      //   name: '古装少女',
+      //   preview: "/dynamic/cover-04/preview.jpg",
+      //   src: '/dynamic/cover-04/index.html',
+      //   type: 'iframe',
+      // },
       {
         name: '冲田总司樱花飘落',
         preview: "/dynamic/cover-05/preview.jpg",
@@ -150,18 +144,6 @@ const dataList = [
         type: 'iframe',
       },
       {
-        name: '科技六角',
-        preview: "/interact/techHexagon/preview.png",
-        src: '/interact/techHexagon/index.html',
-        type: 'iframe',
-      },
-      {
-        name: '星空之环',
-        preview: "/interact/starCircle/preview.jpg",
-        src: '/interact/starCircle/index.html',
-        type: 'iframe',
-      },
-      {
         name: '3D 飞行',
         preview: "/interact/3dPlane/preview.png",
         src: '/interact/3dPlane/index.html',
@@ -195,35 +177,10 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
-  // {
-  //   name: "看板娘",
-  //   key: "signboard",
-  //   list: [],
-  // },
   {
-    name: "随机",
+    name: "更多",
     key: "random",
-    list: [{
-      name: '妹子',
-      preview: COVER_HOST + "/random/meizi-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
-      type: 'api',
-    }, {
-      name: '动漫',
-      preview: COVER_HOST + "/random/dongman-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
-      type: 'api',
-    }, {
-      name: 'scenery',
-      preview: COVER_HOST + "/random/fengjing-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
-      type: 'api',
-    }, {
-      name: '完全随机',
-      preview: COVER_HOST + "/random/random-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?format=json',
-      type: 'api',
-    }],
+    list: web,
   }
 ]
 

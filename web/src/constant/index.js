@@ -2,7 +2,7 @@
  * 网站域名
  * @type {string}
  */
-export const WEB_HOST = 'https://www.code-nav.cn';
+export const WEB_HOST = 'https://xukaiyyds.cn';
 
 /**
  * 封面域名
@@ -14,7 +14,7 @@ export const COVER_HOST = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.
  * GitHub 地址
  * @type {string}
  */
-export const PROJECT_GITHUB = 'https://github.com/liyupi/code-nav';
+export const PROJECT_GITHUB = 'https://github.com/kaibazhidao66/web';
 
 /**
  * 当前封面 键名
