@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Avatar, Card, List, Input, message, Drawer, Button, Tabs, Tooltip, Image, Switch} from 'antd';
 import {navigate} from "@reach/router"
 import {PictureOutlined, SearchOutlined, GithubOutlined} from '@ant-design/icons';
-import logo from 'https://pic.imgdb.cn/item/6207d0352ab3f51d91d1b93c.png';
+import logo from '../assets/logo.png';
 import baidu from '../assets/baidu.png';
 import google from '../assets/google.png';
 import defaultHome from "../constant/defaultHome";
