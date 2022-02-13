@@ -161,30 +161,6 @@ const dataList = [
         src: '/interact/rocket/index.html',
         type: 'iframe',
       },
-      {
-        name: '满天繁星',
-        preview: '/interact/满天繁星/preview.png',
-        src: '/interact/满天繁星/index.html',
-        type: 'iframe',
-      },
-      {
-        name: '火焰黑洞',
-        preview: "/interact/火焰黑洞/preview.png",
-        src: '/interact/火焰黑洞/index.html',
-        type: 'iframe',
-      },
-      {
-        name: '七彩云雾',
-        preview: '/interact/七彩云雾/preview.jpg',
-        src: '/interact/七彩云雾/index.html',
-        type: 'iframe',
-      },
-      {
-        name: '炫彩泡泡',
-        preview: "/interact/炫彩泡泡/preview.gif",
-        src: '/interact/炫彩泡泡/index.html',
-        type: 'iframe',
-      },
     ],
   },
   {
@@ -207,31 +183,31 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
-  {
-    name: "随机",
-    key: "random",
-    list: [{
-      name: '妹子',
-      preview: COVER_HOST + "/random/meizi-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
-      type: 'api',
-    }, {
-      name: '动漫',
-      preview: COVER_HOST + "/random/dongman-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
-      type: 'api',
-    }, {
-      name: 'scenery',
-      preview: COVER_HOST + "/random/fengjing-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
-      type: 'api',
-    }, {
-      name: '完全随机',
-      preview: COVER_HOST + "/random/random-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?format=json',
-      type: 'api',
-    }],
-  }
+  // {
+  //   name: "随机",
+  //   key: "random",
+  //   list: [{
+  //     name: '妹子',
+  //     preview: COVER_HOST + "/random/meizi-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
+  //     type: 'api',
+  //   }, {
+  //     name: '动漫',
+  //     preview: COVER_HOST + "/random/dongman-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
+  //     type: 'api',
+  //   }, {
+  //     name: 'scenery',
+  //     preview: COVER_HOST + "/random/fengjing-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
+  //     type: 'api',
+  //   }, {
+  //     name: '完全随机',
+  //     preview: COVER_HOST + "/random/random-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?format=json',
+  //     type: 'api',
+  //   }],
+  // }
 ]
 
 dataList.forEach(obj => {
