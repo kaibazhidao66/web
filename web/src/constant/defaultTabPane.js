@@ -1,9 +1,9 @@
 import {COVER_HOST} from "./index";
 
 export const DEFAULT_COVER = {
-  name: '雪之仙境',
-  preview: "/dynamic/cover-12/preview.jpg",
-  src: '/dynamic/cover-12/index.html',
+  name: '樱花飞舞',
+  preview: "/dynamic/sakura/preview.jpg",
+  src: '/dynamic/sakura/index.html',
   type: 'iframe',
 }
 
@@ -60,9 +60,9 @@ const dataList = [
         type: 'iframe',
       },
       {
-        name: '樱花飞舞',
-        preview: "/dynamic/sakura/preview.jpg",
-        src: '/dynamic/sakura/index.html',
+        name: '雪之仙境',
+        preview: "/dynamic/cover-12/preview.jpg",
+        src: '/dynamic/cover-12/index.html',
         type: 'iframe',
       },
       {

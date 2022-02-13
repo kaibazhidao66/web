@@ -70,22 +70,6 @@ export default {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687108091-favicon_new.png",
         link: "https://www.proginn.com/",
         name: "程序员客栈"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610692355577-icon-192.png",
-        link: "https://www.v2ex.com/",
-        name: "V2EX"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610688420833-infoq.jpg",
-        link: "https://www.infoq.cn",
-        name: "InfoQ"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610280843910-510.png",
-        link: "https://www.51cto.com/",
-        name: "51CTO"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687108091-favicon_new.png",
-        link: "https://www.proginn.com/",
-        name: "程序员客栈"
       }],
   }
 }

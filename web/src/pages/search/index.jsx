@@ -52,7 +52,7 @@ export default () => {
                 <Menu.Item key="360"><IconFont type="icon-360logo" />360</Menu.Item>
                 <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" />B 站</Menu.Item>
                 <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />码云</Menu.Item>
-                <Menu.Item key="code" onClick={toNav}><IconFont type="icon-code" />更多</Menu.Item>
+                <Menu.Item key="code"><IconFont type="icon-code" /><a href="https://blog.xukaiyyds.cn/#search" target="_blank">更多</a></Menu.Item>
               </Menu>
             </Col>
           </Row>
