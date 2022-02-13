@@ -47,12 +47,12 @@ export default () => {
             <Col xl={16} lg={14} md={12} sm={10} xs={24}>
               <Menu theme="dark" mode="horizontal" selectedKeys={[current]} onClick={handleClick}
                     style={{float: 'right'}}>
-                <Menu.Item key="bing"><IconFont type="icon-bing" /> 必应</Menu.Item>
-                <Menu.Item key="sogou"><IconFont type="icon-sogou" /> 搜狗</Menu.Item>
-                <Menu.Item key="360"><IconFont type="icon-360logo" /> 360</Menu.Item>
-                <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" /> B 站</Menu.Item>
-                <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" /> 码云</Menu.Item>
-                <Menu.Item key="code" onClick={toNav}><IconFont type="icon-code" /> 更多</Menu.Item>
+                <Menu.Item key="bing"><IconFont type="icon-bing" />必应</Menu.Item>
+                <Menu.Item key="sogou"><IconFont type="icon-sogou" />搜狗</Menu.Item>
+                <Menu.Item key="360"><IconFont type="icon-360logo" />360</Menu.Item>
+                <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" />B 站</Menu.Item>
+                <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />码云</Menu.Item>
+                <Menu.Item key="code" onClick={toNav}><IconFont type="icon-code" />更多</Menu.Item>
               </Menu>
             </Col>
           </Row>

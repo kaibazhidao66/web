@@ -61,8 +61,8 @@ const dataList = [
       },
       {
         name: '樱花飞舞',
-        preview: "/dynamic/cover-02/preview.jpg",
-        src: '/dynamic/cover-02/index.html',
+        preview: "/dynamic/sakura/preview.jpg",
+        src: '/dynamic/sakura/index.html',
         type: 'iframe',
       },
       {
