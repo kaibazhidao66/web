@@ -23,22 +23,22 @@ export default {
         link: "https://www.bilibili.com/",
         name: "哔哩哔哩"
       }, {
-      //   icon: "https://pic.imgdb.cn/item/6207ba3f2ab3f51d91bbf6b9.png",
-      //   link: "https://gitee.com/",
-      //   name: "Gitee码云"
-      // }, {
-      //   icon: "https://pic.imgdb.cn/item/6207ba1f2ab3f51d91bbda1d.png",
-      //   link: "https://blog.csdn.net/",
-      //   name: "CSDN博客"
-      // }, {
-      //   icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
-      //   link: "https://github.com/",
-      //   name: "GitHub"
-      // }, {
-      //   icon: "https://pic.imgdb.cn/item/6207b9ff2ab3f51d91bbc14a.png",
-      //   link: "https://codepen.io/",
-      //   name: "CodePen"
-      // },  {
+        icon: "https://pic.imgdb.cn/item/6207ba3f2ab3f51d91bbf6b9.png",
+        link: "https://gitee.com/",
+        name: "Gitee码云"
+      }, {
+        icon: "https://pic.imgdb.cn/item/6207ba1f2ab3f51d91bbda1d.png",
+        link: "https://blog.csdn.net/",
+        name: "CSDN博客"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
+        link: "https://github.com/",
+        name: "GitHub"
+      }, {
+        icon: "https://pic.imgdb.cn/item/6207b9ff2ab3f51d91bbc14a.png",
+        link: "https://codepen.io/",
+        name: "CodePen"
+      },  {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687861229-jianshu.jpg",
         link: "https://www.jianshu.com/",
         name: "简书"
@@ -54,14 +54,38 @@ export default {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610688246707-openchina.png",
         link: "https://www.oschina.net/",
         name: "开源中国"
-      // }, {
-      //   icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/tzbv3-ez9gg.png",
-      //   link: "https://segmentfault.com/",
-      //   name: "思否"
-      // }, {
-      //   icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
-      //   link: "https://www.nowcoder.com/",
-      //   name: "牛客网"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/tzbv3-ez9gg.png",
+        link: "https://segmentfault.com/",
+        name: "思否"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
+        link: "https://www.nowcoder.com/",
+        name: "牛客网"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/tzbv3-ez9gg.png",
+        link: "https://segmentfault.com/",
+        name: "思否"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
+        link: "https://www.nowcoder.com/",
+        name: "牛客网"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/tzbv3-ez9gg.png",
+        link: "https://segmentfault.com/",
+        name: "思否"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
+        link: "https://www.nowcoder.com/",
+        name: "牛客网"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/tzbv3-ez9gg.png",
+        link: "https://segmentfault.com/",
+        name: "思否"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
+        link: "https://www.nowcoder.com/",
+        name: "牛客网"
       }],
   }
 }
