@@ -123,7 +123,7 @@ export default () => {
     <div className="drawer-title">
       <a href={WEB_HOST} target="_blank">
         <Avatar src={logo} shape="square" style={{marginRight: 12}} />
-        <span className="site-title">编程导航</span>
+        <span className="site-title">XKの导航</span>
       </a>
     </div>
   )
@@ -158,9 +158,9 @@ export default () => {
 
   return (
     <div className={`index${ghostClose ? '' : ' ghost'}`}>
-      <div style={{textAlign: 'center', margin: '104px 0 34px'}}>
+      <div style={{textAlign: 'center', margin: '10px 0 34px'}}>
         <img src={isBaidu ? baidu : google} alt={isBaidu ? '百度' : '谷歌'} className="search-logo"
-             onClick={() => setIsBaidu(!isBaidu)} />
+            onClick={() => setIsBaidu(!isBaidu)} />
       </div>
       <div className="search-wrapper">
         <Search enterButton={<Button type={ghostClose ? 'primary' : 'ghost'}><SearchOutlined /></Button>} size="large"
@@ -168,7 +168,7 @@ export default () => {
                 suffix={
                   <Tooltip title={`${searchAll ? '关闭' : '开启'}万能搜索`} placement="left">
                     <img className={`search-all-switch${searchAll ? '' : ' close'}`} src={logo} width={28} alt="万能搜索"
-                         onClick={toggleSearchAll} />
+                        onClick={toggleSearchAll} />
                   </Tooltip>
                 }
                 onSearch={doSearch} onFocus={() => setMaskOpened(true)}

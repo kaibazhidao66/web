@@ -47,32 +47,20 @@ export default () => {
             <Col xl={16} lg={14} md={12} sm={10} xs={24}>
               <Menu theme="dark" mode="horizontal" selectedKeys={[current]} onClick={handleClick}
                     style={{float: 'right'}}>
-                <Menu.Item key="baidu"><IconFont type="icon-baidu" />百度</Menu.Item>
-                <Menu.Item key="bing"><IconFont type="icon-bing" />必应</Menu.Item>
-                <Menu.Item key="360"><IconFont type="icon-360logo" />360</Menu.Item>
-                <Menu.Item key="sogou"><IconFont type="icon-sogou" />搜狗</Menu.Item>
-                <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" />B 站</Menu.Item>
-                <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />Gitee</Menu.Item>
-                <Menu.Item key="code" onClick={toNav}><IconFont type="icon-code" />编程</Menu.Item>
+                <Menu.Item key="bing"><IconFont type="icon-bing" />&nbsp;必应</Menu.Item>
+                <Menu.Item key="sogou"><IconFont type="icon-sogou" />&nbsp;搜狗</Menu.Item>
+                <Menu.Item key="360"><IconFont type="icon-360logo" />&nbsp;360</Menu.Item>
+                <Menu.Item key="baike"><IconFont type="icon-baidu" />&nbsp;百科</Menu.Item>
+                <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />&nbsp;Gitee</Menu.Item>
+                <Menu.Item key="zhihu"><IconFont type="icon-zhihu-line" />&nbsp;知乎</Menu.Item>
+                <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" />&nbsp;B 站</Menu.Item>
               </Menu>
             </Col>
           </Row>
         </Header>
         {
-          current === "baidu" &&
-          <iframe src={`https://www.baidu.com/s?wd=${searchText}`}
-                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -32, zIndex: 1}}
-          />
-        }
-        {
           current === "bing" &&
           <iframe src={`https://cn.bing.com/search?q=${searchText}`}
-                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -30, zIndex: 1}}
-          />
-        }
-        {
-          current === "360" &&
-          <iframe src={`https://www.so.com/s?q=${searchText}`}
                   style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -30, zIndex: 1}}
           />
         }
@@ -83,15 +71,33 @@ export default () => {
           />
         }
         {
-          current === "bilibili" &&
-          <iframe src={`https://search.bilibili.com/all?keyword=${searchText}`}
-                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -80, zIndex: 1}}
+          current === "360" &&
+          <iframe src={`https://www.so.com/s?q=${searchText}`}
+                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -30, zIndex: 1}}
+          />
+        }
+        {
+          current === "baike" &&
+          <iframe src={`http://baike.baidu.com/item/?q=${searchText}`}
+                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -32, zIndex: 1}}
           />
         }
         {
           current === "gitee" &&
           <iframe src={`https://search.gitee.com/?q=${searchText}`}
                   style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -50, zIndex: 1}}
+          />
+        }
+        {
+          current === "zhihu" &&
+          <iframe src={`https://www.zhihu.com/search?type=content&amp;q=${searchText}`}
+                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -80, zIndex: 1}}
+          />
+        }
+        {
+          current === "bilibili" &&
+          <iframe src={`https://search.bilibili.com/all?keyword=${searchText}`}
+                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -80, zIndex: 1}}
           />
         }
       </Layout>

@@ -3,12 +3,12 @@ import path from 'path'
 
 export default {
   Document: ({
-               Html,
-               Head,
-               Body,
-               children,
-               state: {siteData, renderMeta},
-             }) => (
+              Html,
+              Head,
+              Body,
+              children,
+              state: {siteData, renderMeta},
+            }) => (
     <Html lang="en-US">
       <Head>
         <meta charSet="UTF-8" />

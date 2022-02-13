@@ -2,7 +2,7 @@
  * 网站域名
  * @type {string}
  */
-export const WEB_HOST = 'https://xukaiyyds.cn';
+export const WEB_HOST = 'https://xkbk-3891e3-1307717792.tcloudbaseapp.com';
 
 /**
  * 封面域名

@@ -54,23 +54,17 @@ const dataList = [
     list: [
       DEFAULT_COVER,
       {
-        name: '樱花飞舞',
-        preview: "/dynamic/sakura/preview.png",
-        src: '/dynamic/sakura/index.html',
-        type: 'iframe',
-      },
-      {
         name: '樱花少女',
         preview: "/dynamic/cover-01/preview.jpg",
         src: '/dynamic/cover-01/index.html',
         type: 'iframe',
       },
-      // {
-      //   name: '点线联结',
-      //   preview: "/dynamic/cover-02/preview.jpg",
-      //   src: '/dynamic/cover-02/index.html',
-      //   type: 'iframe',
-      // },
+      {
+        name: '樱花飞舞',
+        preview: "/dynamic/cover-02/preview.jpg",
+        src: '/dynamic/cover-02/index.html',
+        type: 'iframe',
+      },
       {
         name: '雪花初音',
         preview: "/dynamic/cover-03/preview.jpg",
@@ -125,12 +119,6 @@ const dataList = [
         src: '/dynamic/cover-11/index.html',
         type: 'iframe',
       },
-      {
-        // name: '满天繁星',
-        // preview: '/dynamic/stars/preview.png',
-        // src: '/dynamic/stars/index.html',
-        // type: 'iframe',
-      },
     ]
   },
   {
@@ -173,6 +161,30 @@ const dataList = [
         src: '/interact/rocket/index.html',
         type: 'iframe',
       },
+      {
+        name: '满天繁星',
+        preview: '/interact/满天繁星/preview.png',
+        src: '/interact/满天繁星/index.html',
+        type: 'iframe',
+      },
+      {
+        name: '火焰黑洞',
+        preview: "/interact/火焰黑洞/preview.png",
+        src: '/interact/火焰黑洞/index.html',
+        type: 'iframe',
+      },
+      {
+        name: '七彩云雾',
+        preview: '/interact/七彩云雾/preview.jpg',
+        src: '/interact/七彩云雾/index.html',
+        type: 'iframe',
+      },
+      {
+        name: '炫彩泡泡',
+        preview: "/interact/炫彩泡泡/preview.gif",
+        src: '/interact/炫彩泡泡/index.html',
+        type: 'iframe',
+      },
     ],
   },
   {
@@ -195,40 +207,40 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
-  {
-    name: "随机",
-    key: "random",
-    list: [{
-      name: '妹子',
-      preview: COVER_HOST + "/random/meizi-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
-      type: 'api',
-    }, {
-      name: '动漫',
-      preview: COVER_HOST + "/random/dongman-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
-      type: 'api',
-    }, {
-      name: 'scenery',
-      preview: COVER_HOST + "/random/fengjing-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
-      type: 'api',
-    }, {
-      name: '完全随机',
-      preview: COVER_HOST + "/random/random-preview.jpg",
-      api: 'http://api.btstu.cn/sjbz/api.php?format=json',
-      type: 'api',
-    }],
-  }
+  // {
+  //   name: "随机",
+  //   key: "random",
+  //   list: [{
+  //     name: '妹子',
+  //     preview: COVER_HOST + "/random/meizi-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
+  //     type: 'api',
+  //   }, {
+  //     name: '动漫',
+  //     preview: COVER_HOST + "/random/dongman-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
+  //     type: 'api',
+  //   }, {
+  //     name: 'scenery',
+  //     preview: COVER_HOST + "/random/fengjing-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
+  //     type: 'api',
+  //   }, {
+  //     name: '完全随机',
+  //     preview: COVER_HOST + "/random/random-preview.jpg",
+  //     api: 'http://api.btstu.cn/sjbz/api.php?format=json',
+  //     type: 'api',
+  //   }],
+  // }
 ]
 
-dataList.forEach(obj => {
-  if (obj.key !== 'random') {
-    obj.list.forEach(cover => {
-      cover.preview = COVER_HOST + cover.preview;
-      cover.src = COVER_HOST + cover.src;
-    })
-  }
-})
+// dataList.forEach(obj => {
+//   if (obj.key !== 'random') {
+//     obj.list.forEach(cover => {
+//       cover.preview = COVER_HOST + cover.preview;
+//       cover.src = COVER_HOST + cover.src;
+//     })
+//   }
+// })
 
 export default dataList;
