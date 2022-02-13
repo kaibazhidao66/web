@@ -207,40 +207,40 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
-  // {
-  //   name: "随机",
-  //   key: "random",
-  //   list: [{
-  //     name: '妹子',
-  //     preview: COVER_HOST + "/random/meizi-preview.jpg",
-  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
-  //     type: 'api',
-  //   }, {
-  //     name: '动漫',
-  //     preview: COVER_HOST + "/random/dongman-preview.jpg",
-  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
-  //     type: 'api',
-  //   }, {
-  //     name: 'scenery',
-  //     preview: COVER_HOST + "/random/fengjing-preview.jpg",
-  //     api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
-  //     type: 'api',
-  //   }, {
-  //     name: '完全随机',
-  //     preview: COVER_HOST + "/random/random-preview.jpg",
-  //     api: 'http://api.btstu.cn/sjbz/api.php?format=json',
-  //     type: 'api',
-  //   }],
-  // }
+  {
+    name: "随机",
+    key: "random",
+    list: [{
+      name: '妹子',
+      preview: COVER_HOST + "/random/meizi-preview.jpg",
+      api: 'http://api.btstu.cn/sjbz/api.php?lx=meizi&format=json',
+      type: 'api',
+    }, {
+      name: '动漫',
+      preview: COVER_HOST + "/random/dongman-preview.jpg",
+      api: 'http://api.btstu.cn/sjbz/api.php?lx=dongman&format=json',
+      type: 'api',
+    }, {
+      name: 'scenery',
+      preview: COVER_HOST + "/random/fengjing-preview.jpg",
+      api: 'http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=json',
+      type: 'api',
+    }, {
+      name: '完全随机',
+      preview: COVER_HOST + "/random/random-preview.jpg",
+      api: 'http://api.btstu.cn/sjbz/api.php?format=json',
+      type: 'api',
+    }],
+  }
 ]
 
-// dataList.forEach(obj => {
-//   if (obj.key !== 'random') {
-//     obj.list.forEach(cover => {
-//       cover.preview = COVER_HOST + cover.preview;
-//       cover.src = COVER_HOST + cover.src;
-//     })
-//   }
-// })
+dataList.forEach(obj => {
+  if (obj.key !== 'random') {
+    obj.list.forEach(cover => {
+      cover.preview = COVER_HOST + cover.preview;
+      cover.src = COVER_HOST + cover.src;
+    })
+  }
+})
 
 export default dataList;

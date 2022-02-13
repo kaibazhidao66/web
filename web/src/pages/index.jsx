@@ -158,7 +158,7 @@ export default () => {
 
   return (
     <div className={`index${ghostClose ? '' : ' ghost'}`}>
-      <div style={{textAlign: 'center', margin: '10px 0 34px'}}>
+      <div style={{textAlign: 'center', margin: '10px 0 30px'}}>
         <img src={isBaidu ? baidu : google} alt={isBaidu ? '百度' : '谷歌'} className="search-logo"
             onClick={() => setIsBaidu(!isBaidu)} />
       </div>
