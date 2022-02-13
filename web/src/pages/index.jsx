@@ -123,7 +123,7 @@ export default () => {
     <div className="drawer-title">
       <a href={WEB_HOST} target="_blank">
         <Avatar src={logo} shape="square" style={{marginRight: 12}} />
-        <span className="site-title">XKの导航</span>
+        <span className="site-title">编程导航</span>
       </a>
     </div>
   )

@@ -1,9 +1,9 @@
 import {COVER_HOST} from "./index";
 
 export const DEFAULT_COVER = {
-  name: '满天繁星',
-  preview: '/dynamic/stars/preview.png',
-  src: '/dynamic/stars/index.html',
+  name: '雪之仙境',
+  preview: "/dynamic/cover-12/preview.jpg",
+  src: '/dynamic/cover-12/index.html',
   type: 'iframe',
 }
 
@@ -65,12 +65,12 @@ const dataList = [
         src: '/dynamic/cover-01/index.html',
         type: 'iframe',
       },
-      {
-        name: '点线联结',
-        preview: "/dynamic/cover-02/preview.jpg",
-        src: '/dynamic/cover-02/index.html',
-        type: 'iframe',
-      },
+      // {
+      //   name: '点线联结',
+      //   preview: "/dynamic/cover-02/preview.jpg",
+      //   src: '/dynamic/cover-02/index.html',
+      //   type: 'iframe',
+      // },
       {
         name: '雪花初音',
         preview: "/dynamic/cover-03/preview.jpg",
@@ -126,10 +126,10 @@ const dataList = [
         type: 'iframe',
       },
       {
-        name: '雪之仙境',
-        preview: "/dynamic/cover-12/preview.jpg",
-        src: '/dynamic/cover-12/index.html',
-        type: 'iframe',
+        // name: '满天繁星',
+        // preview: '/dynamic/stars/preview.png',
+        // src: '/dynamic/stars/index.html',
+        // type: 'iframe',
       },
     ]
   },
@@ -195,7 +195,6 @@ const dataList = [
     key: "comic",
     list: comicList,
   },
-
   {
     name: "随机",
     key: "random",
