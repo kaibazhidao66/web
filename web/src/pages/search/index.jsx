@@ -53,7 +53,7 @@ export default () => {
                 <Menu.Item key="sogou"><IconFont type="icon-sogou" />搜狗</Menu.Item>
                 <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" />B 站</Menu.Item>
                 <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />Gitee</Menu.Item>
-                <Menu.Item key="code" onClick={toNav}><IconFont type="icon-code" /><a href="https://blog.xukaiyyds.cn/#search" target="_blank">更多</a></Menu.Item>
+                <Menu.Item key="code"><IconFont type="icon-code" /><a href="https://blog.xukaiyyds.cn/#search" target="_blank">更多</a></Menu.Item>
               </Menu>
             </Col>
           </Row>
