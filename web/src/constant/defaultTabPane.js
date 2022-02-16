@@ -1,9 +1,9 @@
 import {COVER_HOST} from "./index";
 
 export const DEFAULT_COVER = {
-  name: '星空联盟',
-  preview: "/dynamic/cover-02/preview.jpg",
-  src: '/dynamic/cover-02/index.html',
+  name: '樱花飞舞',
+  preview: "/dynamic/sakura/preview.jpg",
+  src: '/dynamic/sakura/index.html',
   type: 'iframe',
 }
 
