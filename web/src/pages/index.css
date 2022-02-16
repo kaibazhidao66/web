@@ -4,7 +4,7 @@ body {
 }
 
 .index {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .card-wrapper {
@@ -61,8 +61,8 @@ body {
 
 .search-wrapper {
   width: 640px;
-  max-width: 90%;
-  margin: 0 auto 70px;
+  max-width: 100%;
+  margin: 0 auto 50px;
 }
 
 .search .ant-input {

@@ -8,12 +8,12 @@ export default {
     myLike: [
       {
         icon: "https://pic.imgdb.cn/item/6169798c2ab3f51d914e8d1a.jpg",
-        link: "https://xukaiyyds.cn",
+        link: "https://www.xukaiyyds.cn",
         name: "XKの主页"
       }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
-        link: "https://github.com/",
-        name: "GitHub"
+        icon: "https://pic.imgdb.cn/item/6169798c2ab3f51d914e8d1a.jpg",
+        link: "https://blog.xukaiyyds.cn",
+        name: "XKの博客"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
         link: "https://www.zhihu.com/",
@@ -39,13 +39,13 @@ export default {
         link: "https://segmentfault.com/",
         name: "思否"
       }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
+        link: "https://github.com/",
+        name: "GitHub"
+      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
         link: "https://www.nowcoder.com/",
         name: "牛客网"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1609848636738-IMG_1307(20210105-200954).JPG",
-        link: "https://leetcode-cn.com/",
-        name: "LeetCode"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610940860862-bokeyuan.png",
         link: "https://www.cnblogs.com/",

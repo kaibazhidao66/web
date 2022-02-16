@@ -47,6 +47,7 @@ export default () => {
             <Col xl={16} lg={14} md={12} sm={10} xs={24}>
               <Menu theme="dark" mode="horizontal" selectedKeys={[current]} onClick={handleClick}
                     style={{float: 'right'}}>
+                <Menu.Item key="baidu"><IconFont type="icon-baidu" />百度</Menu.Item>
                 <Menu.Item key="bing"><IconFont type="icon-bing" />必应</Menu.Item>
                 <Menu.Item key="sogou"><IconFont type="icon-sogou" />搜狗</Menu.Item>
                 <Menu.Item key="360"><IconFont type="icon-360logo" />360</Menu.Item>
@@ -57,6 +58,12 @@ export default () => {
             </Col>
           </Row>
         </Header>
+        {
+          current === "baidu" &&
+          <iframe src={`https://www.baidu.com/s?wd=${searchText}`}
+                  style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -32, zIndex: 1}}
+          />
+        }
         {
           current === "bing" &&
           <iframe src={`https://cn.bing.com/search?q=${searchText}`}
