@@ -49,11 +49,11 @@ export default () => {
                     style={{float: 'right'}}>
                 <Menu.Item key="baidu"><IconFont type="icon-baidu" />百度</Menu.Item>
                 <Menu.Item key="bing"><IconFont type="icon-bing" />必应</Menu.Item>
-                <Menu.Item key="sogou"><IconFont type="icon-sogou" />搜狗</Menu.Item>
                 <Menu.Item key="360"><IconFont type="icon-360logo" />360</Menu.Item>
+                <Menu.Item key="sogou"><IconFont type="icon-sogou" />搜狗</Menu.Item>
                 <Menu.Item key="bilibili"><IconFont type="icon-bilibili-line" />B 站</Menu.Item>
-                <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />码云</Menu.Item>
-                <Menu.Item key="code"><IconFont type="icon-code" /><a href="https://blog.xukaiyyds.cn/#search" target="_blank">更多</a></Menu.Item>
+                <Menu.Item key="gitee"><IconFont type="icon-gitee-fill-round" />Gitee</Menu.Item>
+                <Menu.Item key="code" onClick={toNav}><IconFont type="icon-code" /><a href="https://blog.xukaiyyds.cn/#search" target="_blank">更多</a></Menu.Item>
               </Menu>
             </Col>
           </Row>
@@ -71,14 +71,14 @@ export default () => {
           />
         }
         {
-          current === "sogou" &&
-          <iframe src={`https://www.sogou.com/web?query=${searchText}`}
+          current === "360" &&
+          <iframe src={`https://www.so.com/s?q=${searchText}`}
                   style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -30, zIndex: 1}}
           />
         }
         {
-          current === "360" &&
-          <iframe src={`https://www.so.com/s?q=${searchText}`}
+          current === "sogou" &&
+          <iframe src={`https://www.sogou.com/web?query=${searchText}`}
                   style={{border: 'none', width: '100%', height: '100vh', position: 'fixed', top: -30, zIndex: 1}}
           />
         }

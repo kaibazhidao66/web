@@ -62,7 +62,7 @@ body {
 .search-wrapper {
   width: 720px;
   max-width: 90%;
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
 }
 
 .search .ant-input {
