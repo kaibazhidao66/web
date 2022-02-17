@@ -8,12 +8,12 @@ export default {
     myLike: [
       {
         icon: "https://pic.imgdb.cn/item/6169798c2ab3f51d914e8d1a.jpg",
-        link: "https://www.xukaiyyds.cn",
-        name: "XKの主页"
+        link: "https://www.xukaiyyds.cn/web.html",
+        name: "自定义网址"
       }, {
-        icon: "https://pic.imgdb.cn/item/6169798c2ab3f51d914e8d1a.jpg",
-        link: "https://blog.xukaiyyds.cn",
-        name: "XKの博客"
+        icon: "https://s1.music.126.net/style/favicon.ico?v20180823",
+        link: "https://music.163.com/",
+        name: "网易云音乐"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
         link: "https://www.zhihu.com/",
@@ -23,6 +23,22 @@ export default {
         link: "https://www.bilibili.com/",
         name: "Bilibili"
       }, {
+        icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png",
+        link: "https://mail.qq.com/",
+        name: "QQ邮箱"
+      }, {
+        icon: "https://mail.163.com/favicon.ico",
+        link: "https://mail.163.com/",
+        name: "网易邮箱"
+      }, {
+        icon: "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+        link: "https://mail.google.com/",
+        name: "谷歌邮箱"
+      }, {
+        icon: "https://pan.baidu.com/m-static/base/static/images/favicon.ico",
+        link: "https://pan.baidu.com/",
+        name: "百度网盘"
+      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687861229-jianshu.jpg",
         link: "https://www.jianshu.com/",
         name: "简书"
@@ -30,6 +46,30 @@ export default {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610941467025-juejin(1).png",
         link: "https://juejin.cn/",
         name: "掘金"
+      }, {
+        icon: "https://www.w3school.com.cn/ui2019/logo-180.png",
+        link: "https://www.w3school.com.cn/",
+        name: "w3school"
+      }, {
+        icon: "https://static.runoob.com/images/favicon.ico",
+        link: "https://www.runoob.com/",
+        name: "菜鸟教程"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
+        link: "https://github.com/",
+        name: "GitHub"
+      }, {
+        icon: "https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png",
+        link: "https://codepen.io/",
+        name: "CodePen"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610692355577-icon-192.png",
+        link: "https://www.v2ex.com/",
+        name: "V2EX"
+      }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
+        link: "https://www.nowcoder.com/",
+        name: "牛客网"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/src=http _img3.doubanio.com_lpic_s26866793.jpg&refer=http _img3.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg.jpg",
         link: "https://www.csdn.net/",
@@ -39,14 +79,6 @@ export default {
         link: "https://segmentfault.com/",
         name: "思否"
       }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
-        link: "https://github.com/",
-        name: "GitHub"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
-        link: "https://www.nowcoder.com/",
-        name: "牛客网"
-      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610940860862-bokeyuan.png",
         link: "https://www.cnblogs.com/",
         name: "博客园"
@@ -54,38 +86,6 @@ export default {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610688246707-openchina.png",
         link: "https://www.oschina.net/",
         name: "开源中国"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610692355577-icon-192.png",
-        link: "https://www.v2ex.com/",
-        name: "V2EX"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610688420833-infoq.jpg",
-        link: "https://www.infoq.cn",
-        name: "InfoQ"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610280843910-510.png",
-        link: "https://www.51cto.com/",
-        name: "51CTO"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687108091-favicon_new.png",
-        link: "https://www.proginn.com/",
-        name: "程序员客栈"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610692355577-icon-192.png",
-        link: "https://www.v2ex.com/",
-        name: "V2EX"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610688420833-infoq.jpg",
-        link: "https://www.infoq.cn",
-        name: "InfoQ"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610280843910-510.png",
-        link: "https://www.51cto.com/",
-        name: "51CTO"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687108091-favicon_new.png",
-        link: "https://www.proginn.com/",
-        name: "程序员客栈"
       }],
   }
 }
