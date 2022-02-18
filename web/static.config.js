@@ -13,7 +13,7 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>XKの导航</title>
+        <title>XKの自定义</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <script src="baiduAnalyze.js"></script>
       </Head>

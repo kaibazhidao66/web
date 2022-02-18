@@ -11,10 +11,6 @@ export default {
         link: "https://www.xukaiyyds.cn/web.html",
         name: "自定义网址"
       }, {
-        icon: "https://s1.music.126.net/style/favicon.ico?v20180823",
-        link: "https://music.163.com/",
-        name: "网易云音乐"
-      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
         link: "https://www.zhihu.com/",
         name: "知乎"
@@ -23,11 +19,15 @@ export default {
         link: "https://www.bilibili.com/",
         name: "Bilibili"
       }, {
-        icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png",
+        icon: "https://p.qlogo.cn/zc_icon/0/035cad85434397fc120a578b86989f4116233264295291/0.png",
+        link: "https://www.cupfox.com/",
+        name: "茶杯狐"
+      }, {
+        icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
         link: "https://mail.qq.com/",
         name: "QQ邮箱"
       }, {
-        icon: "https://mail.163.com/favicon.ico",
+        icon: "https://static.ws.126.net/www/logo/logo-ipad-icon.png",
         link: "https://mail.163.com/",
         name: "网易邮箱"
       }, {
@@ -35,9 +35,9 @@ export default {
         link: "https://mail.google.com/",
         name: "谷歌邮箱"
       }, {
-        icon: "https://pan.baidu.com/m-static/base/static/images/favicon.ico",
-        link: "https://pan.baidu.com/",
-        name: "百度网盘"
+        icon: "https://ssl.gstatic.com/translate/favicon.ico",
+        link: "https://translate.google.com/",
+        name: "谷歌翻译"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687861229-jianshu.jpg",
         link: "https://www.jianshu.com/",
@@ -51,7 +51,7 @@ export default {
         link: "https://www.w3school.com.cn/",
         name: "w3school"
       }, {
-        icon: "https://static.runoob.com/images/favicon.ico",
+        icon: "https://static.runoob.com/images/icon/mobile-icon.png",
         link: "https://www.runoob.com/",
         name: "菜鸟教程"
       }, {
@@ -59,7 +59,7 @@ export default {
         link: "https://github.com/",
         name: "GitHub"
       }, {
-        icon: "https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png",
+        icon: "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png",
         link: "https://codepen.io/",
         name: "CodePen"
       }, {

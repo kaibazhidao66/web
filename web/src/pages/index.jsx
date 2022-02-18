@@ -121,9 +121,9 @@ export default () => {
 
   const drawerTitle = (
     <div className="drawer-title">
-      <a href={WEB_HOST} target="_blank">
+      <a href={WEB_HOST}>
         <Avatar src={logo} shape="square" style={{marginRight: 12}} />
-        <span className="site-title">XKの导航</span>
+        <span className="site-title">XKの自定义</span>
       </a>
     </div>
   )
