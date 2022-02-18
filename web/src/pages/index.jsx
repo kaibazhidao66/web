@@ -190,7 +190,7 @@ export default () => {
           checked={ghostClose}
           onChange={toggleGhost}
         />
-        <Tooltip title="更换背景">
+        <Tooltip title="切换封面">
           <Button type={ghostClose ? 'primary' : 'ghost'} size="small" shape="round" icon={<PictureOutlined />}
                   style={{marginLeft: 8}}
                   onClick={() => setDrawerVisible(true)} />
