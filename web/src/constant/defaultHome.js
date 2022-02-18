@@ -21,7 +21,7 @@ export default {
       }, {
         icon: "https://developer.mozilla.org/apple-touch-icon.0ea0fa02.png",
         link: "https://developer.mozilla.org/zh-CN/",
-        name: "MDN网络文档"
+        name: "MDN文档"
       }, {
         icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
         link: "https://mail.qq.com/",
@@ -53,7 +53,7 @@ export default {
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687628081-bilibili.png",
         link: "https://www.bilibili.com/",
-        name: "Bilibili"
+        name: "bilibili"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
         link: "https://github.com/",
