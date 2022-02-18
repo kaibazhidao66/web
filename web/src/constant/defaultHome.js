@@ -11,10 +11,6 @@ export default {
         link: "https://www.xukaiyyds.cn/web.html",
         name: "自定义网址"
       }, {
-        icon: "https://p.qlogo.cn/zc_icon/0/035cad85434397fc120a578b86989f4116233264295291/0.png",
-        link: "https://www.cupfox.com/",
-        name: "茶杯狐"
-      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
         link: "https://www.zhihu.com/",
         name: "知乎"
@@ -23,6 +19,18 @@ export default {
         link: "https://www.bilibili.com/",
         name: "Bilibili"
       }, {
+        icon: "https://p.qlogo.cn/zc_icon/0/035cad85434397fc120a578b86989f4116233264295291/0.png",
+        link: "https://www.cupfox.com/",
+        name: "茶杯狐"
+      }, {
+        icon: "https://ssl.gstatic.com/translate/favicon.ico",
+        link: "https://translate.google.com/",
+        name: "Google翻译"
+      }, {
+        icon: "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+        link: "https://mail.google.com/",
+        name: "Google邮箱"
+      }, {
         icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
         link: "https://mail.qq.com/",
         name: "QQ邮箱"
@@ -30,14 +38,6 @@ export default {
         icon: "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1421316580,79078263&fm=26&gp=0.jpg",
         link: "https://mail.163.com/",
         name: "网易邮箱"
-      }, {
-        icon: "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
-        link: "https://mail.google.com/",
-        name: "谷歌邮箱"
-      }, {
-        icon: "https://ssl.gstatic.com/translate/favicon.ico",
-        link: "https://translate.google.com/",
-        name: "谷歌翻译"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687861229-jianshu.jpg",
         link: "https://www.jianshu.com/",

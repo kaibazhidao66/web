@@ -121,7 +121,7 @@ export default () => {
 
   const drawerTitle = (
     <div className="drawer-title">
-      <a href={WEB_HOST} target="_self">
+      <a href={WEB_HOST} target="_blank">
         <Avatar src={logo} shape="square" style={{marginRight: 12}} />
         <span className="site-title">XKの自定义</span>
       </a>
