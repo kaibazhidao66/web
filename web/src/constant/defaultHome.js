@@ -9,19 +9,19 @@ export default {
       {
         icon: "https://xkbk-3891e3-1307717792.tcloudbaseapp.com/favicon.ico",
         link: "https://www.xukaiyyds.cn/web.html",
-        name: "自定义网址"
+        name: "自定义"
       }, {
-        icon: "https://p.qlogo.cn/zc_icon/0/035cad85434397fc120a578b86989f4116233264295291/0.png",
-        link: "https://www.cupfox.com/",
-        name: "茶杯狐影视"
+        icon: "https://static.runoob.com/images/icon/mobile-icon.png",
+        link: "https://www.runoob.com/",
+        name: "菜鸟教程"
       }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
-        link: "https://www.zhihu.com/",
-        name: "知乎"
+        icon: "https://www.w3school.com.cn/ui2019/logo-180.png",
+        link: "https://www.w3school.com.cn/",
+        name: "w3school"
       }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687628081-bilibili.png",
-        link: "https://www.bilibili.com/",
-        name: "Bilibili"
+        icon: "https://developer.mozilla.org/apple-touch-icon.0ea0fa02.png",
+        link: "https://developer.mozilla.org/zh-CN/",
+        name: "MDN网络文档"
       }, {
         icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
         link: "https://mail.qq.com/",
@@ -39,6 +39,10 @@ export default {
         link: "https://translate.google.com/",
         name: "谷歌翻译"
       }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
+        link: "https://www.zhihu.com/",
+        name: "知乎"
+      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687861229-jianshu.jpg",
         link: "https://www.jianshu.com/",
         name: "简书"
@@ -47,29 +51,25 @@ export default {
         link: "https://juejin.cn/",
         name: "掘金"
       }, {
-        icon: "https://static.runoob.com/images/icon/mobile-icon.png",
-        link: "https://www.runoob.com/",
-        name: "菜鸟教程"
-      }, {
-        icon: "https://www.w3school.com.cn/ui2019/logo-180.png",
-        link: "https://www.w3school.com.cn/",
-        name: "w3school"
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687628081-bilibili.png",
+        link: "https://www.bilibili.com/",
+        name: "Bilibili"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
         link: "https://github.com/",
         name: "GitHub"
       }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
-        link: "https://www.nowcoder.com/",
-        name: "牛客网"
+        icon: "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/60x60.png",
+        link: "https://vercel.com/",
+        name: "vercel"
       }, {
         icon: "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png",
         link: "https://codepen.io/",
         name: "CodePen"
       }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610692355577-icon-192.png",
-        link: "https://www.v2ex.com/",
-        name: "V2EX"
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo_87_87.png",
+        link: "https://www.nowcoder.com/",
+        name: "牛客网"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/src=http _img3.doubanio.com_lpic_s26866793.jpg&refer=http _img3.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg.jpg",
         link: "https://www.csdn.net/",
