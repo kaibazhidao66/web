@@ -53,7 +53,7 @@ export default {
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687628081-bilibili.png",
         link: "https://www.bilibili.com/",
-        name: "bilibili"
+        name: "Bilibili"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
         link: "https://github.com/",

@@ -190,12 +190,12 @@ export default () => {
           checked={ghostClose}
           onChange={toggleGhost}
         />
-        <Tooltip title="切换封面">
+        <Tooltip title="更换背景">
           <Button type={ghostClose ? 'primary' : 'ghost'} size="small" shape="round" icon={<PictureOutlined />}
                   style={{marginLeft: 8}}
                   onClick={() => setDrawerVisible(true)} />
         </Tooltip>
-        <Tooltip title="项目详情">
+        <Tooltip title="项目地址">
           <Button type={ghostClose ? 'primary' : 'ghost'} size="small" shape="round" icon={<GithubOutlined />}
                   style={{marginLeft: 8}}
                   onClick={() => window.open(PROJECT_GITHUB)} />
