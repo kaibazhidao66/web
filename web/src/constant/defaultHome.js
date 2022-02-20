@@ -11,17 +11,17 @@ export default {
         link: "https://www.xukaiyyds.cn/web.html",
         name: "自定义"
       }, {
-        icon: "https://static.runoob.com/images/icon/mobile-icon.png",
-        link: "https://www.runoob.com/",
-        name: "菜鸟教程"
+        icon: "https://developer.mozilla.org/apple-touch-icon.0ea0fa02.png",
+        link: "https://developer.mozilla.org/zh-CN/",
+        name: "MDN文档"
       }, {
         icon: "https://www.w3school.com.cn/ui2019/logo-180.png",
         link: "https://www.w3school.com.cn/",
         name: "w3school"
       }, {
-        icon: "https://developer.mozilla.org/apple-touch-icon.0ea0fa02.png",
-        link: "https://developer.mozilla.org/zh-CN/",
-        name: "MDN文档"
+        icon: "https://static.runoob.com/images/icon/mobile-icon.png",
+        link: "https://www.runoob.com/",
+        name: "菜鸟教程"
       }, {
         icon: "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
         link: "https://mail.qq.com/",
@@ -39,6 +39,10 @@ export default {
         link: "https://translate.google.com/",
         name: "谷歌翻译"
       }, {
+        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687628081-bilibili.png",
+        link: "https://www.bilibili.com/",
+        name: "B站"
+      }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/apple-touch-icon-76.7a750095.png",
         link: "https://www.zhihu.com/",
         name: "知乎"
@@ -50,10 +54,6 @@ export default {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610941467025-juejin(1).png",
         link: "https://juejin.cn/",
         name: "掘金"
-      }, {
-        icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610687628081-bilibili.png",
-        link: "https://www.bilibili.com/",
-        name: "Bilibili"
       }, {
         icon: "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610896059065-9919.png",
         link: "https://github.com/",
