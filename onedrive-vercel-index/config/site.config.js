@@ -2,7 +2,7 @@
  * This file contains the configuration used for customising the website, such as the folder to share,
  * the title, used Google fonts, site icons, contact info, etc.
  */
-module.exports = {
+ module.exports = {
   // This is what we use to identify who you are when you are initialising the website for the first time.
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "XKの相册",
+  title: "Imsyy Drive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
@@ -35,14 +35,14 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a> & Made with by <a href=\"https://www.xukaiyyds.cn\" target=\"_blank\" rel=\"noopener noreferrer\">xk</a>',
+    'Powered by <a href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a> & Made with by <a href=\"https://imsyy.top\" target=\"_blank\" rel=\"noopener noreferrer\">imsyy</a>',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/视频/加密'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:3353212714@qq.com',
+  email: 'mailto:one@imsyy.top',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
@@ -50,11 +50,11 @@ module.exports = {
   links: [
     {
       name: 'Home',
-      link: 'https://www.xukaiyyds.cn',
+      link: 'https://www.imsyy.top',
     },
     {
       name: 'Blog',
-      link: 'https://blog.xukaiyyds.cn',
+      link: 'https://blog.imsyy.top',
     },
   ],
 
